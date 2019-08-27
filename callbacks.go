@@ -66,6 +66,7 @@ type InlineButton struct {
 	URL         string `json:"url,omitempty"`
 	Data        string `json:"callback_data,omitempty"`
 	InlineQuery string `json:"switch_inline_query,omitempty"`
+	InlineQueryCurrentChat string `json:"switch_inline_query_current_chat"`
 
 	Action func(*Callback) `json:"-"`
 }
