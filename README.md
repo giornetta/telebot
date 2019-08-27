@@ -1,11 +1,14 @@
+This repository is a fork of https://github.com/tucnak/telebot, the only feature it adds is the `switch_inline_query_current_chat` to [InlineButton](https://godoc.org/github.com/giornetta/telebot#InlineButton).
+There is another [Pull Request](https://github.com/tucnak/telebot/pull/198) made by another user which adds this and other functionalities, but it has not been merged yet.
+
 # Telebot
 >"I never knew creating Telegram bots could be so _sexy_!"
 
-[![GoDoc](https://godoc.org/gopkg.in/tucnak/telebot.v2?status.svg)](https://godoc.org/gopkg.in/tucnak/telebot.v2)
+[![GoDoc](https://godoc.org/github.com/giornetta/telebot?status.svg)](https://godoc.org/github.com/giornetta/telebot)
 [![Travis](https://travis-ci.org/tucnak/telebot.svg?branch=v2)](https://travis-ci.org/tucnak/telebot)
 
 ```bash
-go get -u gopkg.in/tucnak/telebot.v2
+go get -u github.com/giornetta/telebot
 ```
 
 * [Overview](#overview)
